@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Swipe Helper</string>
+    <string name="service_name">Botones Flotantes</string>
+    <string name="service_description">Botones flotantes para simular swipes en Instagram Reels</string>
+    <string name="accessibility_service_name">Swipe Simulator</string>
+    <string name="accessibility_service_description">Simula gestos de swipe para navegar en aplicaciones</string>
+    <string name="permission_overlay_title">Permiso de Overlay</string>
+    <string name="permission_overlay_message">Esta app necesita permiso para mostrar botones sobre otras aplicaciones</string>
+    <string name="permission_accessibility_title">Servicio de Accesibilidad</string>
+    <string name="permission_accessibility_message">Esta app necesita acceso a los servicios de accesibilidad para simular toques</string>
+    <string name="enable_service">Activar Servicio</string>
+    <string name="disable_service">Desactivar Servicio</string>
+    <string name="service_running">Servicio Activo</string>
+    <string name="service_stopped">Servicio Desactivado</string>
+    <string name="grant_permissions">Conceder Permisos</string>
+</resources>

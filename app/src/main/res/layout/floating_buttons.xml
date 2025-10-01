@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/floating_background"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/btnSwipeUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_circular"
+        android:src="@drawable/ic_arrow_up"
+        android:contentDescription="Swipe Up"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/btnSwipeDown"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circular"
+        android:src="@drawable/ic_arrow_down"
+        android:contentDescription="Swipe Down"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esta app crea botones flotantes para simular swipes en Instagram Reels"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnGrantOverlayPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conceder Permiso de Overlay"
+        android:layout_marginBottom="16dp"
+        android:background="@color/button_background"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnGrantAccessibilityPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conceder Permiso de Accesibilidad"
+        android:layout_marginBottom="32dp"
+        android:background="@color/button_background"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnToggleService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_service"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvServiceStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_stopped"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrucciones:\n1. Concede ambos permisos\n2. Activa el servicio\n3. Los botones aparecerán en la esquina inferior derecha\n4. Abre Instagram Reels y usa los botones"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+</LinearLayout>
